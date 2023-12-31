@@ -32,6 +32,8 @@ while items < 11:
     if choice == 1:
         
         # Print the list
+        print (" ") # Print two gap's so when running, the code doesn't seem so bunched up
+        print (" ")
         print (it1)
         print (it2)
         print (it3)
@@ -47,8 +49,6 @@ while items < 11:
         uitem = input ("What would you like to add to the to do list? ")
         
         # Check which item on the list to asign the text to
-        
-        # If item 1 is free the item will be assigned to there
         if it1 == "0":
             it1 = (uitem)
             items = items + 1
