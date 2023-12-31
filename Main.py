@@ -58,44 +58,44 @@ while items < 11:
         
         # Check which item on the list to asign the users input item to
         if it1 == "0":
-            it1 = (uitem)
-            items = items + 1
+            it1 = (uitem) # Assign the users text into the new variable
+            items = items + 1 # Add one item to the amount of items
         
         elif it2 == "0":
-            it2 = (uitem)
-            items = items + 1
+            it2 = (uitem) # Assign the users text into the new variable
+            items = items + 1 # Add one item to the amount of items
             
         elif it3 == "0":
-            it3 = (uitem)
-            items = items + 1
+            it3 = (uitem) # Assign the users text into the new variable
+            items = items + 1 # Add one item to the amount of items
                 
         elif it4 == "0":
-            it4 = (uitem)
-            items = items + 1
+            it4 = (uitem) # Assign the users text into the new variable
+            items = items + 1 # Add one item to the amount of items
                     
         elif it5 == "0":
-            it5 = (uitem)
-            items = items + 1
+            it5 = (uitem) # Assign the users text into the new variable
+            items = items + 1 # Add one item to the amount of items
                         
         elif it6 == "0":
-            it6 = (uitem)
-            items = items + 1
+            it6 = (uitem) # Assign the users text into the new variable
+            items = items + 1 # Add one item to the amount of items
                             
         elif it7 == "0":
-            it7 = (uitem)
-            items = items + 1
+            it7 = (uitem) # Assign the users text into the new variable
+            items = items + 1 # Add one item to the amount of items
                                 
         elif it8 == "0":
-            it8 = (uitem)
-            items = items + 1
+            it8 = (uitem) # Assign the users text into the new variable
+            items = items + 1 # Add one item to the amount of items
                                     
         elif it9 == "0":
-            it9 = (uitem)
-            items = items + 1
+            it9 = (uitem) # Assign the users text into the new variable
+            items = items + 1 # Add one item to the amount of items
                                         
         elif it10 == "0":
-            it10 = (uitem)
-            items = items + 1
+            it10 = (uitem) # Assign the users text into the new variable
+            items = items + 1 # Add one item to the amount of items
                                                 
     # When the user decides to delete an item
     if choice == 2:
@@ -122,31 +122,31 @@ while items < 11:
         
         # Delete the option the user has asked to be deleted
         if dell == "1":
-            it1 = "0"
+            it1 = "0" # Because the user has deleted the item from the list, this deletes it from the amount
             
         if dell == "2":
-            it2 = "0"
+            it2 = "0" # Because the user has deleted the item from the list, this deletes it from the amount
             
         if dell == "3":
-            it3 = "0"
+            it3 = "0" # Because the user has deleted the item from the list, this deletes it from the amount
             
         if dell == "4":
-            it4 = "0"
+            it4 = "0" # Because the user has deleted the item from the list, this deletes it from the amount
         
         if dell == "5":
-            it5 = "0"
+            it5 = "0" # Because the user has deleted the item from the list, this deletes it from the amount
             
         if dell == "6":
-            it6 = "0"
+            it6 = "0" # Because the user has deleted the item from the list, this deletes it from the amount
             
         if dell == "7":
-            it7 = "0"
+            it7 = "0" # Because the user has deleted the item from the list, this deletes it from the amount
             
         if dell == "8":
-            it8 = "0"
+            it8 = "0" # Because the user has deleted the item from the list, this deletes it from the amount
             
         if dell == "9":
-            it9 = "0"
+            it9 = "0" # Because the user has deleted the item from the list, this deletes it from the amount
             
         if dell == "10":
-            it10 = "0" 
+            it10 = "0" # Because the user has deleted the item from the list, this deletes it from the amount
