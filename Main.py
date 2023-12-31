@@ -51,50 +51,63 @@ while items < 11:
         # If item 1 is free the item will be assigned to there
         if it1 == "0":
             it1 = (uitem)
+            items = items + 1
         
-        elif it1 != "0":
+        
             
-            if it2 == "0":
-                it2 = (uitem)
+        elif it2 == "0":
+            it2 = (uitem)
+            items = items + 1
             
-            elif it2 != "0":
+            
                 
-                if it3 == "0":
-                    it3 = (uitem)
+        elif it3 == "0":
+            it3 = (uitem)
+            items = items + 1
                 
-                elif it3 != "0":
+                
                     
-                    if it4 == "0":
-                        it4 = (uitem)
+        elif it4 == "0":
+            it4 = (uitem)
+            items = items + 1
                     
-                    elif it4 != "0":
+                    
                         
-                        if it5 == "0":
-                            it5 = (uitem)
+        elif it5 == "0":
+            it5 = (uitem)
+            items = items + 1
                         
-                        elif it5 != "0":
+                        
                             
-                            if it6 == "0":
-                                it6 = (uitem)
+        elif it6 == "0":
+            it6 = (uitem)
+            items = items + 1
                             
-                            elif it6 != "0":
+                            
                                 
-                                if it7 == "0":
-                                    it7 = (uitem)
+        elif it7 == "0":
+            it7 = (uitem)
+            items = items + 1
                                 
-                                elif it7 != "0":
+                                
                                     
-                                    if it8 == "0":
-                                        it8 = (uitem)
+        elif it8 == "0":
+            it8 = (uitem)
+            items = items + 1
                                     
-                                    elif it8 != "0":
+                                    
+        elif it9 == "0":
+            it9 = (uitem)
+            items = items + 1
                                         
-                                        if it9 == "0":
-                                            it9 = (uitem)
                                         
-                                        elif it9 != "0":
                                             
-                                            if it10 == "0":
-                                                it10 = (uitem) 
+        elif it10 == "0":
+            it10 = (uitem)
+            items = items + 1
+                                                
+    # User decides to delete an item
+    else:
+        pass 
 
     
