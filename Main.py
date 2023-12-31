@@ -4,7 +4,7 @@ import random
 # Create a variable for the amount of items in the list
 items =  0
 
-# Create all the items in the list (Max 10)
+# Create all ten items in the list 
 it1 = "0"
 it2 = "0"
 it3 = "0"
@@ -44,11 +44,13 @@ while items < 11:
         print (it8)
         print (it9)
         print (it10)
+        print (" ") # Print two gaps at the end to stop the code from seeing bunched up
+        print (" ")
         
         # Ask the user what they would like to add to the list
         uitem = input ("What would you like to add to the to do list? ")
         
-        # Check which item on the list to asign the text to
+        # Check which item on the list to asign the users input item to
         if it1 == "0":
             it1 = (uitem)
             items = items + 1
@@ -89,13 +91,14 @@ while items < 11:
             it10 = (uitem)
             items = items + 1
                                                 
-    # User decides to delete an item
+    # When the user decides to delete an item
     if choice == 2:
         
         # Print a message to the user confirming that they are going to delete a item
         print ("You have decided to delete an item. ")
         
         # Print all available items to delete
+        print (" ") # Print a gap so the code doesnt seem so bunched up
         print ("1: " + it1)
         print ("2: " + it2)
         print ("3: " + it3)
@@ -106,6 +109,7 @@ while items < 11:
         print ("8: " + it8)
         print ("9: " + it9)
         print ("10: " + it10)
+        print (" ") # Print a gap so the code doesnt seem so bunched up
         
         # Ask user what item they would like to delete
         dell = input("What item would you like to delete? ")
