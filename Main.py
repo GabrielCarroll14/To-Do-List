@@ -18,7 +18,7 @@ it9 = "0"
 it10 = "0"
 
 # Print a welcome message to the user
-print ("Welcometo To-Do List, you have a maximum of ten items. ")
+print ("Welcome to To-Do List, you have a maximum of ten items. ")
 
 # Create a loop
 while items < 11:
@@ -108,7 +108,7 @@ while items < 11:
         print ("10: " + it10)
         
         # Ask user what item they would like to delete
-        dell = int(input("What item would you like to delete? "))
+        dell = input("What item would you like to delete? ")
         
         # Delete the option the user has asked to be deleted
         if dell == "1":
