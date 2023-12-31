@@ -23,29 +23,35 @@ print ("Welcome to To-Do List, you have a maximum of ten items. ")
 # Create a loop
 while items < 11:
     
-    print ("You have " + str(items) + " items remaining. ")
+    # Print the list
+    print (" ") # Print two gap's so when running, the code doesn't seem so bunched up
+    print (" ")
+    print (it1)
+    print (it2)
+    print (it3)
+    print (it4)
+    print (it5)
+    print (it6)
+    print (it7)
+    print (it8)
+    print (it9)
+    print (it10)
+    print (" ") # Print two gaps at the end to stop the code from seeing bunched up
+    print (" ")
+    
+    # Use the word "Item" instead of "Items" if the amount of items on the list is less than 2
+    if items < 2:
+        print ("You have " + str(items) + " item remaining. ")
+        
+    # Use the word "items" instead of "item" if the amount of items is more than 1
+    if items > 1:
+        print ("You have " + str(items) + " items remaining. ")
     
     # Ask the user if they would like to create or delete an item
     choice = int(input("Press 1 to create a item, or 2 to delete an item. "))
     
     # If the user decides to create an item
     if choice == 1:
-        
-        # Print the list
-        print (" ") # Print two gap's so when running, the code doesn't seem so bunched up
-        print (" ")
-        print (it1)
-        print (it2)
-        print (it3)
-        print (it4)
-        print (it5)
-        print (it6)
-        print (it7)
-        print (it8)
-        print (it9)
-        print (it10)
-        print (" ") # Print two gaps at the end to stop the code from seeing bunched up
-        print (" ")
         
         # Ask the user what they would like to add to the list
         uitem = input ("What would you like to add to the to do list? ")
