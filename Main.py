@@ -23,15 +23,7 @@ print ("Welcometo To-Do List, you have a maximum of ten items. ")
 # Create a loop
 while items < 11:
     
-    print ("You have " + str(items) + " items remaining. ")
-    
-    # Ask the user if they would like to create or delete an item
-    choice = int(input("Press 1 to create a item, or 2 to delete an item. "))
-    
-    # If the user decides to create an item
-    if choice == 1:
-        
-        # Print the list
+    # Print the list
         print (" ") # Print two gap's so when running, the code doesn't seem so bunched up
         print (" ")
         print (it1)
@@ -44,6 +36,14 @@ while items < 11:
         print (it8)
         print (it9)
         print (it10)
+    
+    print ("You have " + str(items) + " items remaining. ")
+    
+    # Ask the user if they would like to create or delete an item
+    choice = int(input("Press 1 to create a item, or 2 to delete an item. "))
+    
+    # If the user decides to create an item
+    if choice == 1:
         
         # Ask the user what they would like to add to the list
         uitem = input ("What would you like to add to the to do list? ")
