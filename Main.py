@@ -90,5 +90,62 @@ while items < 11:
             items = items + 1
                                                 
     # User decides to delete an item
-    else:
-        pass    
+    if choice == 2:
+        
+        # Print a message to the user confirming that they are going to delete a item
+        print ("You have decided to delete an item. ")
+        
+        # Print all available items to delete
+        print ("1: " + it1)
+        print ("2: " + it2)
+        print ("3: " + it3)
+        print ("4: " + it4)
+        print ("5: " + it5)
+        print ("6: " + it6)
+        print ("7: " + it7)
+        print ("8: " + it8)
+        print ("9: " + it9)
+        print ("10: " + it10)
+        
+        # Ask user what item they would like to delete
+        dell = int(input("What item would you like to delete? "))
+        
+        # Delete the option the user has asked to be deleted
+        if dell == "1":
+            it1 = "0"
+            
+        if dell == "2":
+            it2 = "0"
+            
+        if dell == "3":
+            it3 = "0"
+            
+        if dell == "4":
+            it4 = "0"
+        
+        if dell == "5":
+            it5 = "0"
+            
+        if dell == "6":
+            it6 = "0"
+            
+        if dell == "7":
+            it7 = "0"
+            
+        if dell == "8":
+            it8 = "0"
+            
+        if dell == "9":
+            it9 = "0"
+            
+        if dell == "10":
+            it10 = "0"
+            
+        
+        
+            
+
+        
+        
+        
+            
