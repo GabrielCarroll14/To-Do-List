@@ -53,61 +53,42 @@ while items < 11:
             it1 = (uitem)
             items = items + 1
         
-        
-            
         elif it2 == "0":
             it2 = (uitem)
             items = items + 1
             
-            
-                
         elif it3 == "0":
             it3 = (uitem)
             items = items + 1
                 
-                
-                    
         elif it4 == "0":
             it4 = (uitem)
             items = items + 1
                     
-                    
-                        
         elif it5 == "0":
             it5 = (uitem)
             items = items + 1
                         
-                        
-                            
         elif it6 == "0":
             it6 = (uitem)
             items = items + 1
                             
-                            
-                                
         elif it7 == "0":
             it7 = (uitem)
             items = items + 1
                                 
-                                
-                                    
         elif it8 == "0":
             it8 = (uitem)
             items = items + 1
-                                    
                                     
         elif it9 == "0":
             it9 = (uitem)
             items = items + 1
                                         
-                                        
-                                            
         elif it10 == "0":
             it10 = (uitem)
             items = items + 1
                                                 
     # User decides to delete an item
     else:
-        pass 
-
-    
+        pass    
